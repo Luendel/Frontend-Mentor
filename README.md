@@ -4,13 +4,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Table of contents
 
-- [Links](#links)
+- [Link](#link)
 - [Built with](#built-with)
 - [Author](#author)
 
-### Links
-
-- Solution URL: https://github.com/Luendel/Recipe-page-solution
+### Link
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
