@@ -9,7 +9,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 
 ### Link
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Solution](https://66e9d18fac8bff6077641778--reliable-tapioca-b6cb3a.netlify.app/)
 
 ### Built with
 
