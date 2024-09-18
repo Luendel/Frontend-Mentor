@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+
+@font-face {
+	font-family: "Inter";
+	src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+@font-face {
+	font-family: "Inter-bold";
+	src: url("./assets/fonts/static/Inter-bold.ttf");
+}
+
+@font-face {
+	font-family: "Inter-regular";
+	src: url("./assets/fonts/static/Inter-regular.ttf");
+}
+
+@font-face {
+	font-family: "Inter-SemiBold";
+	src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+}
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: hsl(0, 0%, 8%);
+	color: white;
+	font-family: Inter-bold;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	align-content: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+main {
+	background-color: hsl(0, 0%, 12%);
+	width: 90%;
+	max-width: 390px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;
+}
+
+.profile-img{
+	width: 30%;
+	margin: 0 auto;
+	margin-top:2rem;
+}
+
+.profile-img img {
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.card-item {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title {
+	font-size: 1.7rem;
+	margin-top: 1.7rem;
+}
+
+.subtitle {
+	color: hsl(75, 94%, 57%);
+	font-size: 1rem;
+	text-align: center;
+	font-family: "Inter-SemiBold";
+	font-weight: 500;
+	margin-top: 0.65rem;
+	margin-bottom: 0.65rem;
+}
+
+.quote {
+	font-size: 0.875rem;
+	color: hsl(0, 0%, 90%);
+	font-family: Inter-regular;
+	font-weight: 400;
+	margin-top: 1.8rem;
+}
+
+.button-group{
+	margin-top: 0.875rem;
+	margin-bottom: 0.875rem;
+}
+
+.button {
+	width: 80%;
+	margin-bottom: 0.875rem;
+	padding-top: 0.875rem;
+	padding-bottom: 0.875rem;
+	cursor: pointer;
+	background-color: hsl(0, 0%, 20%);
+	border: none;
+	border-radius: 10px;
+	color: white;
+	font-family: "Inter-SemiBold";
+	font-weight: 500;
+}
+
+.button:active {
+	background-color: hsl(75, 94%, 57%);
+	color: hsl(0, 0%, 12%);
+}
+
