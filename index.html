@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link 
+  rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+  crossorigin="anonymous" 
+  referrerpolicy="no-referrer" 
+  />
+</head>
+<body>
+
+  <main>
+    <header>
+      <h1 class="text header-title">Your Result</h1>
+      <ul class="header-counter">
+        <li class="text counter title">76</li>
+        <li class="text counter subtitle">of 100</li>
+      </ul>
+      <h2 class="text header-performance">Great</h2>
+      <p class="text header-performance-subtitle">You scored higher than 65% of the people who have taken these tests.</p>
+    </header>
+    <section>
+      <h2 class="text section-title">Summary</h2>
+
+      <table class="performance-details">
+        <tr class="red">
+          <td class="category"><i class="fa-solid fa-bolt"></i> Reaction</td>
+          <td class="ratio">80 <span>/ 100</span></td>
+        </tr>
+        <tr class="yellow">
+          <td class="category"><i class="fa-solid fa-brain"></i> Memory</td>
+          <td class="ratio">92 <span>/ 100</span></td>
+        </tr>
+        <tr class="green">
+          <td class="category"><i class="fa-solid fa-comment-dots"></i> Verbal</td>
+          <td class="ratio">61 <span>/ 100</span></td>
+        </tr>
+        <tr class="blue">
+          <td class="category"><i class="fa-solid fa-eye"></i> Visual</td>
+          <td class="ratio">72 <span>/ 100</span></td>
+        </tr>
+      </table>
+      <button>Continue</button>
+    </section>
+  </main>
+</body>
+</html>
